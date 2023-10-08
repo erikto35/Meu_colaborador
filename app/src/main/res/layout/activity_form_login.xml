@@ -7,6 +7,18 @@
     android:background="@drawable/background"
     tools:context=".FormLogin">
 
+   <!-- <ImageButton
+        android:id="@+id/tela_casa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/aqua"
+        android:src="@drawable/baseline_other_houses_24"
+        app:layout_constraintStart_toStartOf="@id/button"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="733dp"
+        tools:ignore="MissingConstraints" />
+        <!-->
+
     <View
         android:id="@+id/conteinerUeser"
         android:layout_width="150dp"
@@ -88,5 +100,52 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/if_CPF"
         tools:layout_editor_absoluteX="20dp" />
+
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:id="@+id/passe"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginStart="12dp"
+     android:layout_marginEnd="8dp"
+     android:layout_marginBottom="4dp"
+     android:background="@drawable/background"
+     android:text="inicio"
+     android:textColor="@color/white"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.05"
+     app:layout_constraintStart_toStartOf="parent"
+     tools:ignore="MissingConstraints" />
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:id="@+id/informe"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginStart="55dp"
+     android:layout_marginEnd="59dp"
+     android:layout_marginBottom="7dp"
+     android:background="@drawable/background"
+     android:text="Informação"
+     android:textColor="@color/white"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     tools:ignore="MissingConstraints" />
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:id="@+id/ajuda"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginEnd="16dp"
+     android:layout_marginBottom="4dp"
+     android:background="@drawable/background"
+     android:text="Ajuda"
+     android:textColor="@color/white"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.946"
+     app:layout_constraintStart_toStartOf="parent"
+     tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
